@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //dlare variable and initialise variables
+
+    int perimeter,area, height, hypotenuse,base; 
+
+    base=10;
+    height=7;
+    hypotenuse=12;
+
+    //calculation
+    perimeter=base+height+hypotenuse;
+    area=0.5*base*height;
+
+    ///display on the screen
+    cout<<"the perimeteter = "<<perimeter<<endl;
+    cout<<" area  = "<<area<<endl;
+
+    return 0;
+}
